@@ -1,0 +1,37 @@
+body{
+    
+}
+.calculadora{
+    background-image: linear-gradient(rgb(165, 164, 164), rgb(77, 76, 76));
+    margin:auto;
+    width: 320px;
+    height: 480px;
+    padding: 25px 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: [c1] 80px [c2] 80px [c3] 80px [c4] 80px [c5];
+    grid-template-rows: [l1] 80px [l2] 80px [l3] 80px [l4] 80px [l5] 80px [l6] 80px [l7];
+
+}
+.visor{
+    grid-column: c1/c5;
+    grid-row: l1/l2;
+    border: 1px red solid;
+    margin: auto;
+    display: block;
+}
+.visor-texto{
+    height: 50px;
+    padding-top: 5x;
+    width: 300px;
+}
+button{
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+}
+.botao{
+    border: 1px blue solid;
+   margin: auto;
+    display: block;
+}
