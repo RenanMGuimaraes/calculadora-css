@@ -3,6 +3,7 @@ body{
 }
 .calculadora{
     background-image: linear-gradient(rgb(165, 164, 164), rgb(77, 76, 76));
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
     margin:auto;
     width: 320px;
     height: 480px;
@@ -16,7 +17,7 @@ body{
 .visor{
     grid-column: c1/c5;
     grid-row: l1/l2;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     margin: auto;
     display: block;
 }
@@ -31,7 +32,23 @@ button{
     font-size: 20px;
 }
 .botao{
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
    margin: auto;
     display: block;
+}
+#adicao{
+    height: 150px;
+    background-color: rgb(182, 175, 175);
+}
+.btnadicao{
+    grid-row: l5/l7;
+    grid-column: c4/c5;
+}
+#zero{
+    width: 150px;
+    background-color: rgb(182, 175, 175);
+}
+.btnzero{
+    grid-row: l6/l7;
+    grid-column: c1/c3;
 }
